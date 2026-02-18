@@ -6,7 +6,7 @@
 <html lang="en">
 
 
-<!-- user-register11:10-->
+<!-- product-cart07:06-->
 <head>
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
@@ -40,9 +40,8 @@
     <link rel="stylesheet" type="text/css" href="css/reponsive.css">
 </head>
 
-<body class="user-register blog">
+<body class="product-cart checkout-cart blog">
     <header>
-
         <!-- header left mobie -->
         <div class="header-mobile d-md-none">
             <div class="mobile hidden-md-up text-xs-center d-flex align-items-center justify-content-around">
@@ -54,7 +53,7 @@
 
                 <!-- logo -->
                 <div class="mobile-logo">
-                    <a href="home.html">
+                    <a href="../shared/home.html">
                         <img class="logo-mobile img-fluid" src="img/home/logo-mobie.png" alt="Prestashop_Furnitica">
                     </a>
                 </div>
@@ -136,7 +135,7 @@
                     <!-- logo -->
                     <div class="col-sm-2 col-md-2 d-flex align-items-center">
                         <div id="logo">
-                            <a href="home.html">
+                            <a href="../shared/home.html">
                                 <img src="img/home/logo.png" alt="logo" class="img-fluid">
                             </a>
                         </div>
@@ -151,7 +150,7 @@
                                     <div class="dropdown-menu">
                                         <ul>
                                             <li class="item">
-                                                <a href="home.html" title="Home Page 1">Home Page 1</a>
+                                                <a href="../shared/home.html" title="Home Page 1">Home Page 1</a>
                                             </li>
                                             <li class="item">
                                                 <a href="home2.html" title="Home Page 2">Home Page 2</a>
@@ -173,7 +172,7 @@
                                     <div class="dropdown-menu">
                                         <ul>
                                             <li class="item">
-                                                <a href="blogs-list.html" title="Blog List (Sidebar Left)">Blog List (Sidebar Left)</a>
+                                                <a href="../blogs/blogs-list.html" title="Blog List (Sidebar Left)">Blog List (Sidebar Left)</a>
                                             </li>
                                             <li class="item">
                                                 <a href="blog-list-sidebar-left2.html" title="Blog List (Sidebar Left) 2">Blog List (Sidebar Left) 2</a>
@@ -188,7 +187,7 @@
                                                 <a href="blog-grid-no-sidebar.html" title="Blog Grid (No Sidebar)">Blog Grid (No Sidebar)</a>
                                             </li>
                                             <li class="item">
-                                                <a href="blog-detail.html" title="Blog Detail">Blog Detail</a>
+                                                <a href="../blogs/blog-detail.html" title="Blog Detail">Blog Detail</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -234,10 +233,10 @@
                                                             <div class="menu-content">
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="404.html">404 Page</a>
+                                                                        <a href="../shared/404.html">404 Page</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="about-us.html">About Us Page</a>
+                                                                        <a href="../shared/about-us.html">About Us Page</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -249,7 +248,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="contact.html" class="parent">Contact US</a>
+                                    <a href="../shared/contact.html" class="parent">Contact US</a>
                                 </li>
                             </ul>
                         </div>
@@ -281,19 +280,19 @@
                                 <div class="account-list-content">
 
                                     <div>
-                                        <a class="login" href="account.html" rel="nofollow" title="Log in to your customer account">
+                                        <a class="login" href="../users/account.html" rel="nofollow" title="Log in to your customer account">
                                             <i class="fa fa-cog"></i>
                                             <span>My Account</span>
                                         </a>
                                     </div>
                                     <div>
-                                        <a class="login" href="login.html" rel="nofollow" title="Log in to your customer account">
+                                        <a class="login" href="../users/login.html" rel="nofollow" title="Log in to your customer account">
                                             <i class="fa fa-sign-in"></i>
                                             <span>Sign in</span>
                                         </a>
                                     </div>
                                     <div>
-                                        <a class="register" href="register.html" rel="nofollow" title="Register Account">
+                                        <a class="register" href="../users/register.html" rel="nofollow" title="Register Account">
                                             <i class="fa fa-user"></i>
                                             <span>Register Account</span>
                                         </a>
@@ -405,9 +404,9 @@
     </header>
 
     <!-- main content -->
-    <div class="main-content">
-        <div class="wrap-banner">
-
+    <div class="main-content" id="cart">
+        <!-- main -->
+        <div id="wrapper-site">
             <!-- breadcrumb -->
             <nav class="breadcrumb-bg">
                 <div class="container no-index">
@@ -420,60 +419,263 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span>About us</span>
+                                    <span>Shopping Cart</span>
                                 </a>
                             </li>
                         </ol>
                     </div>
                 </div>
             </nav>
-        </div>
-
-        <!-- main -->
-        <div id="wrapper-site">
             <div class="container">
                 <div class="row">
                     <div id="content-wrapper" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onecol">
-                        <div id="main">
-                            <div id="content" class="page-content">
-                                <div class="register-form text-center">
-                                    <h1 class="text-center title-page">Create Account</h1>
-                                    <form action="#" id="customer-form" class="js-customer-form" method="post">
-                                        <div>
-                                            <div class="form-group">
-                                                <div>
-                                                    <input class="form-control" name="firstname" type="text" placeholder="First name">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div>
-                                                    <input class="form-control" name="lastname" type="text" placeholder="Last name">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div>
-                                                    <input class="form-control" name="email" type="email" placeholder="Email">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div>
-                                                    <div class="input-group js-parent-focus">
-                                                        <input class="form-control js-child-focus js-visible-password" name="password" type="password" placeholder="Password">
+                        <section id="main">
+                            <div class="cart-grid row">
+                                <div class="col-md-9 col-xs-12 check-info">
+                                    <h1 class="title-page">Shopping Cart</h1>
+                                    <div class="cart-container">
+                                        <div class="cart-overview js-cart">
+                                            <ul class="cart-items">
+                                                <li class="cart-item">
+                                                    <div class="product-line-grid row justify-content-between">
+                                                        <!--  product left content: image-->
+                                                        <div class="product-line-grid-left col-md-2">
+                                                            <span class="product-image media-middle">
+                                                                <a href="product-detail.html">
+                                                                    <img class="img-fluid" src="img/product/3.jpg" alt="Organic Strawberry Fruits">
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                        <div class="product-line-grid-body col-md-6">
+                                                            <div class="product-line-info">
+                                                                <a class="label" href="product-detail.html" data-id_customization="0">Organic Strawberry Fruits</a>
+                                                            </div>
+                                                            <div class="product-line-info product-price">
+                                                                <span class="value">£20.00</span>
+                                                            </div>
+                                                            <div class="product-line-info">
+                                                                <span class="label-atrr">Size:</span>
+                                                                <span class="value">S</span>
+                                                            </div>
+                                                            <div class="product-line-info">
+                                                                <span class="label-atrr">Color:</span>
+                                                                <span class="value">Blue</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-line-grid-right text-center product-line-actions col-md-4">
+                                                            <div class="row">
+                                                                <div class="col-md-5 col qty">
+                                                                    <div class="label">Qty:</div>
+                                                                    <div class="quantity">
+                                                                        <input type="text" name="qty" value="1" class="input-group form-control">
+
+                                                                        <span class="input-group-btn-vertical">
+                                                                            <button class="btn btn-touchspin js-touchspin bootstrap-touchspin-up" type="button">
+                                                                                +
+                                                                            </button>
+                                                                            <button class="btn btn-touchspin js-touchspin bootstrap-touchspin-down" type="button">
+                                                                                -
+                                                                            </button>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-5 col price">
+                                                                    <div class="label">Total:</div>
+                                                                    <div class="product-price total">
+                                                                        £20.00
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col text-xs-right align-self-end">
+                                                                    <div class="cart-line-product-actions ">
+                                                                        <a class="remove-from-cart" rel="nofollow" href="#" data-link-action="delete-from-cart" data-id-product="1">
+                                                                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
+                                                </li>
+                                                <li class="cart-item">
+                                                    <div class="product-line-grid row justify-content-between">
+                                                        <!--  product left content: image-->
+                                                        <div class="product-line-grid-left col-md-2">
+                                                            <span class="product-image media-middle">
+                                                                <a href="product-detail.html">
+                                                                    <img class="img-fluid" src="img/product/2.jpg" alt="Organic Strawberry Fruits">
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                        <div class="product-line-grid-body col-md-6">
+                                                            <div class="product-line-info">
+                                                                <a class="label" href="product-detail.html" data-id_customization="0">
+                                                                    Etiam Congue Nisl Nec</a>
+                                                            </div>
+                                                            <div class="product-line-info product-price">
+                                                                <span class="value">£30.00</span>
+                                                            </div>
+                                                            <div class="product-line-info">
+                                                                <span class="label-atrr">Size:</span>
+                                                                <span class="value">S</span>
+                                                            </div>
+                                                            <div class="product-line-info">
+                                                                <span class="label-atrr">Color:</span>
+                                                                <span class="value">Blue</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-line-grid-right text-center product-line-actions col-md-4">
+                                                            <div class="row">
+                                                                <div class="col-md-5 qty col">
+                                                                    <div class="label">Qty:</div>
+                                                                    <div class="quantity">
+                                                                        <input type="text" name="qty" value="2" class="input-group form-control">
+
+                                                                        <span class="input-group-btn-vertical">
+                                                                            <button class="btn btn-touchspin js-touchspin bootstrap-touchspin-up" type="button">
+                                                                                +
+                                                                            </button>
+                                                                            <button class="btn btn-touchspin js-touchspin bootstrap-touchspin-down" type="button">
+                                                                                -
+                                                                            </button>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-5 price col">
+                                                                    <div class="label">Total:</div>
+                                                                    <div class="product-price total">
+                                                                        £60.00
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 text-xs-right align-self-end col">
+                                                                    <div class="cart-line-product-actions ">
+                                                                        <a class="remove-from-cart" rel="nofollow" href="#" data-link-action="delete-from-cart" data-id-product="1">
+                                                                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="cart-item">
+                                                    <div class="product-line-grid row justify-content-between">
+                                                        <!--  product left content: image-->
+                                                        <div class="product-line-grid-left col-md-2">
+                                                            <span class="product-image media-middle">
+                                                                <a href="product-detail.html">
+                                                                    <img class="img-fluid" src="img/product/1.jpg" alt="Organic Strawberry Fruits">
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                        <div class="product-line-grid-body col-md-6">
+                                                            <div class="product-line-info">
+                                                                <a class="label" href="product-detail.html" data-id_customization="0">Nulla Et Justo Non Augue</a>
+                                                            </div>
+                                                            <div class="product-line-info product-price">
+                                                                <span class="value">£40.00</span>
+                                                            </div>
+                                                            <div class="product-line-info">
+                                                                <span class="label-atrr">Size:</span>
+                                                                <span class="value">S</span>
+                                                            </div>
+                                                            <div class="product-line-info">
+                                                                <span class="label-atrr">Color:</span>
+                                                                <span class="value">Blue</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-line-grid-right text-center product-line-actions col-md-4">
+                                                            <div class="row">
+                                                                <div class="col-md-5 col qty">
+                                                                    <div class="label">Qty:</div>
+                                                                    <div class="quantity">
+                                                                        <input type="text" name="qty" value="3" class="input-group form-control">
+
+                                                                        <span class="input-group-btn-vertical">
+                                                                            <button class="btn btn-touchspin js-touchspin bootstrap-touchspin-up" type="button">
+                                                                                +
+                                                                            </button>
+                                                                            <button class="btn btn-touchspin js-touchspin bootstrap-touchspin-down" type="button">
+                                                                                -
+                                                                            </button>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-5 col price">
+                                                                    <div class="label">Total:</div>
+                                                                    <div class="product-price total">
+                                                                        £120.00
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col text-xs-right align-self-end">
+                                                                    <div class="cart-line-product-actions ">
+                                                                        <a class="remove-from-cart" rel="nofollow" href="#" data-link-action="delete-from-cart" data-id-product="1">
+                                                                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="checkout.html" class="continue btn btn-primary pull-xs-right">
+                                        Continue
+                                    </a>
+                                </div>
+                                <div class="cart-grid-right col-xs-12 col-lg-3">
+                                    <div class="cart-summary">
+                                        <div class="cart-detailed-totals">
+                                            <div class="cart-summary-products">
+                                                <div class="summary-label">There are 3 item in your cart</div>
+                                            </div>
+                                            <div class="cart-summary-line" id="cart-subtotal-products">
+                                                <span class="label js-subtotal">
+                                                    Total products:
+                                                </span>
+                                                <span class="value">£200.00</span>
+                                            </div>
+                                            <div class="cart-summary-line" id="cart-subtotal-shipping">
+                                                <span class="label">
+                                                    Total Shipping:
+                                                </span>
+                                                <span class="value">Free</span>
+                                                <div>
+                                                    <small class="value"></small>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="clearfix">
-                                            <div>
-                                                <button class="btn btn-primary" data-link-action="sign-in" type="submit">
-                                                    Create Account
-                                                </button>
+                                            <div class="cart-summary-line cart-total">
+                                                <span class="label">Total:</span>
+                                                <span class="value">£200.00 (tax incl.)</span>
                                             </div>
                                         </div>
-                                    </form>
+                                    </div>
+                                    <div id="block-reassurance">
+                                        <ul>
+                                            <li>
+                                                <div class="block-reassurance-item">
+                                                    <img src="img/product/check1.png" alt="Security policy (edit with Customer reassurance module)">
+                                                    <span>Security policy (edit with Customer reassurance module)</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="block-reassurance-item">
+                                                    <img src="img/product/check2.png" alt="Delivery policy (edit with Customer reassurance module)">
+                                                    <span>Delivery policy (edit with Customer reassurance module)</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="block-reassurance-item">
+                                                    <img src="img/product/check3.png" alt="Return policy (edit with Customer reassurance module)">
+                                                    <span>Return policy (edit with Customer reassurance module)</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -1194,12 +1396,12 @@
                                     <i class="zmdi zmdi-minus"></i>
                                     <i class="zmdi zmdi-plus"></i>
                                 </span>
-                                <a href="home.html" title="Home">
+                                <a href="../shared/home.html" title="Home">
                                     <i class="fa fa-home" aria-hidden="true"></i>Home</a>
                                 <div class="subCategory collapse" id="home1" aria-expanded="true" role="status">
                                     <ul>
                                         <li class="item">
-                                            <a href="home.html" title="Home Page 1">Home Page 1</a>
+                                            <a href="../shared/home.html" title="Home Page 1">Home Page 1</a>
                                         </li>
                                         <li class="item">
                                             <a href="home2.html" title="Home Page 2">Home Page 2</a>
@@ -1227,7 +1429,7 @@
                                 <div class="subCategory collapse" id="blog" aria-expanded="true" role="status">
                                     <ul>
                                         <li class="item">
-                                            <a href="blogs-list.html" title="Blog List (Sidebar Left)">Blog List (Sidebar Left)</a>
+                                            <a href="../blogs/blogs-list.html" title="Blog List (Sidebar Left)">Blog List (Sidebar Left)</a>
                                         </li>
                                         <li class="item">
                                             <a href="blog-list-sidebar-left2.html" title="Blog List (Sidebar Left) 2">Blog List (Sidebar Left) 2</a>
@@ -1242,7 +1444,7 @@
                                             <a href="blog-grid-no-sidebar.html" title="Blog Grid (No Sidebar)">Blog Grid (No Sidebar)</a>
                                         </li>
                                         <li class="item">
-                                            <a href="blog-detail.html" title="Blog Detail">Blog Detail</a>
+                                            <a href="../blogs/blog-detail.html" title="Blog Detail">Blog Detail</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1293,10 +1495,10 @@
                                                         <div class="menu-content">
                                                             <ul>
                                                                 <li>
-                                                                    <a href="404.html">404 Page</a>
+                                                                    <a href="../shared/404.html">404 Page</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="about-us.html">About Us Page</a>
+                                                                    <a href="../shared/about-us.html">About Us Page</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -1308,7 +1510,7 @@
                                 </div>
                             </li>
                             <li class="item has-sub">
-                                <a href="contact.html" title="Contact us">
+                                <a href="../shared/contact.html" title="Contact us">
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>Contact us</a>
                             </li>
                         </ul>
@@ -1346,5 +1548,5 @@
 </body>
 
 
-<!-- user-register11:10-->
+<!-- product-cart07:12-->
 </html>
