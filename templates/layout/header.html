@@ -1,3 +1,4 @@
+
 {% load static %}
 <header>
     <!-- header left mobie -->
@@ -280,3 +281,11 @@
         </div>
     </div>
 </header>
+
+{% if messages %}
+    <div style="margin-top: 20px;" class="alert alert-info" role="alert">
+        {% for message in messages %}
+            <p>{{ message }}</p>
+        {% endfor %}
+    </div>
+{% endif %}
